@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aggreem Gupta | AI Student & GenAI Developer</title>
+  <meta name="description" content="Portfolio of Aggreem Gupta - AI Student at Zenith School of AI. Specializing in Generative AI, RAG Architectures, and Vector Search." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Icons (FontAwesome / SVG) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Aggreem</span><span class="logo-accent">.AI</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="https://github.com/guptaaggreem" target="_blank" class="nav-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aggreem-gupta-147778404/" target="_blank" class="nav-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-content">
+      <div class="status-badge">
+        <span class="status-pulse"></span>
+        <span>Studying AI @ Zenith School of AI (Class of 2030)</span>
+      </div>
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Aggreem Gupta</span>
+      </h1>
+
+      <div class="typing-container">
+        <span class="prefix">Building</span>
+        <span class="typing-text" id="typing-text"></span>
+        <span class="cursor">|</span>
+      </div>
+
+      <p class="hero-desc">
+        Passionate about AI research, LLM orchestration, and modern engineering. Specializing in 
+        <strong>Generative AI, Retrieval-Augmented Generation (RAG)</strong>, and <strong>semantic vector pipelines</strong> to automate workflows and unlock actionable intelligence.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> Explore Projects
+        </a>
+        <a href="#resume" class="btn btn-secondary">
+          <i class="fas fa-file-alt"></i> View Resume
+        </a>
+        <a href="https://www.linkedin.com/in/aggreem-gupta-147778404/" target="_blank" class="btn btn-outline">
+          <i class="fab fa-linkedin"></i> Connect on LinkedIn
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="meta-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>New Delhi, India</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-graduation-cap"></i>
+          <span>B.Tech in AI + Mini MBA</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-shield-alt"></i>
+          <a href="https://www.skills.google/public_profiles/b1f01234-952a-47b0-90d5-8c911b5c9ff1" target="_blank">Google Skills Boost Certified</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01. Identity</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-panel">
+          <div class="terminal-bar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="terminal-title">aggreem_profile.json</span>
+          </div>
+          <pre class="code-block"><code>{
+  <span class="code-key">"name"</span>: <span class="code-str">"Aggreem Gupta"</span>,
+  <span class="code-key">"education"</span>: {
+    <span class="code-key">"institution"</span>: <span class="code-str">"Zenith School of AI"</span>,
+    <span class="code-key">"degree"</span>: <span class="code-str">"B.Tech in AI + Mini MBA"</span>,
+    <span class="code-key">"grad_year"</span>: <span class="code-num">2030</span>
+  },
+  <span class="code-key">"passion"</span>: <span class="code-str">"AI Research, RAG Architectures & GenAI"</span>,
+  <span class="code-key">"location"</span>: <span class="code-str">"New Delhi, India"</span>,
+  <span class="code-key">"current_focus"</span>: [
+    <span class="code-str">"Next-gen Study Synthesis (LearnMate)"</span>,
+    <span class="code-str">"Enterprise Workflow Automation (CompanyBrain)"</span>,
+    <span class="code-str">"Academic Policy Intelligence (CampusBrain)"</span>
+  ]
+}</code></pre>
+        </div>
+
+        <div class="about-narrative">
+          <p class="lead-text">
+            I am an AI student and builder dedicated to bridging cutting-edge Large Language Model capabilities with practical, everyday problems.
+          </p>
+          <p>
+            Whether it's dissecting dense university regulations so students don't have to wade through 100-page handbooks (<strong>CampusBrain</strong>), or developing dual-interface enterprise platforms to streamline employee approvals and policy Q&A (<strong>CompanyBrain</strong>), I focus on clean architecture and high-impact solutions.
+          </p>
+          <p>
+            Currently, I am diving deep into multimodal synthesis with <strong>LearnMate</strong>, an intelligent study companion inspired by NotebookLM that creates interactive mind maps, flashcards, and 3D visual concepts.
+          </p>
+
+          <div class="metrics-row">
+            <div class="metric-box">
+              <span class="metric-num">3+</span>
+              <span class="metric-label">AI Platforms Designed</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-num">100%</span>
+              <span class="metric-label">Focused on AI & GenAI</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-num">2030</span>
+              <span class="metric-label">B.Tech + Mini MBA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02. Stack & Capabilities</span>
+        <h2 class="section-title">Technical Expertise</h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- AI & GenAI -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <div class="category-icon" style="color: #38bdf8;">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Generative AI & LLMs</h3>
+          </div>
+          <div class="badge-grid">
+            <span class="tech-chip"><i class="fas fa-microchip"></i> Retrieval-Augmented Gen (RAG)</span>
+            <span class="tech-chip"><i class="fas fa-project-diagram"></i> Vector Search & Embeddings</span>
+            <span class="tech-chip"><i class="fas fa-terminal"></i> Prompt Engineering</span>
+            <span class="tech-chip"><i class="fas fa-bolt"></i> OpenAI API</span>
+            <span class="tech-chip"><i class="fab fa-google"></i> Google Gemini API</span>
+            <span class="tech-chip"><i class="fas fa-robot"></i> Anthropic Claude API</span>
+          </div>
+        </div>
+
+        <!-- Languages & Web -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <div class="category-icon" style="color: #a855f7;">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Languages & Web</h3>
+          </div>
+          <div class="badge-grid">
+            <span class="tech-chip"><i class="fab fa-python"></i> Python</span>
+            <span class="tech-chip"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="tech-chip"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="tech-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="tech-chip"><i class="fas fa-database"></i> SQL</span>
+          </div>
+        </div>
+
+        <!-- Databases & Storage -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <div class="category-icon" style="color: #34d399;">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Databases & Data</h3>
+          </div>
+          <div class="badge-grid">
+            <span class="tech-chip"><i class="fas fa-leaf"></i> MongoDB</span>
+            <span class="tech-chip"><i class="fas fa-cubes"></i> Vector Databases</span>
+            <span class="tech-chip"><i class="fas fa-chart-line"></i> Matplotlib</span>
+            <span class="tech-chip"><i class="fas fa-table"></i> Relational Data</span>
+          </div>
+        </div>
+
+        <!-- Developer Tools -->
+        <div class="skill-category glass-panel">
+          <div class="category-header">
+            <div class="category-icon" style="color: #f97316;">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tooling & Infrastructure</h3>
+          </div>
+          <div class="badge-grid">
+            <span class="tech-chip"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="tech-chip"><i class="fab fa-github"></i> GitHub</span>
+            <span class="tech-chip"><i class="fab fa-docker"></i> Docker</span>
+            <span class="tech-chip"><i class="fas fa-code-branch"></i> VS Code</span>
+            <span class="tech-chip"><i class="fas fa-network-wired"></i> REST APIs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03. Showcase</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: CompanyBrain -->
+        <div class="project-card glass-panel highlight-card">
+          <div class="project-top">
+            <div class="project-badges">
+              <span class="badge badge-accent">Enterprise AI</span>
+              <span class="badge badge-subtle">Published on LinkedIn</span>
+            </div>
+            <a href="https://www.linkedin.com/pulse/building-companybrain-from-simple-ai-assistant-ai-powered-gupta-ia3df/" target="_blank" class="project-external-link" title="Read Article">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <h3 class="project-title">CompanyBrain</h3>
+          <p class="project-subtitle">Enterprise Operations & Workforce Intelligence Hub</p>
+
+          <p class="project-description">
+            A full-scale enterprise AI ecosystem featuring Role-Based Access Control (RBAC). Provides employees with a self-service dashboard to track tasks, book meetings, and submit leave/reimbursement claims, which route seamlessly to a manager dashboard for instant review. Powered by an enterprise RAG pipeline for conversational policy retrieval.
+          </p>
+
+          <div class="project-tech-list">
+            <span>Python</span>
+            <span>Enterprise RAG</span>
+            <span>MongoDB</span>
+            <span>Vector Search</span>
+            <span>RBAC</span>
+            <span>GenAI</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://www.linkedin.com/pulse/building-companybrain-from-simple-ai-assistant-ai-powered-gupta-ia3df/" target="_blank" class="btn btn-sm btn-outline">
+              <i class="fab fa-linkedin"></i> Read Breakdown
+            </a>
+            <a href="https://github.com/guptaaggreem" target="_blank" class="btn btn-sm btn-ghost">
+              <i class="fab fa-github"></i> Source Repo
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: CampusBrain -->
+        <div class="project-card glass-panel">
+          <div class="project-top">
+            <div class="project-badges">
+              <span class="badge badge-cyan">Academic AI</span>
+              <span class="badge badge-subtle">Compliance RAG</span>
+            </div>
+            <a href="https://github.com/guptaaggreem" target="_blank" class="project-external-link" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <h3 class="project-title">CampusBrain</h3>
+          <p class="project-subtitle">AI University Compliance & Policy Retrieval Engine</p>
+
+          <p class="project-description">
+            Designed to eliminate the hassle of navigating dense, multi-hundred page university bylaws and student manuals. Ingests campus policies into high-precision vector embeddings, allowing students to query academic deadlines, grading criteria, and regulations conversationally with verified accuracy.
+          </p>
+
+          <div class="project-tech-list">
+            <span>Python</span>
+            <span>RAG Pipeline</span>
+            <span>Vector Search</span>
+            <span>MongoDB</span>
+            <span>VS Code</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/guptaaggreem" target="_blank" class="btn btn-sm btn-outline">
+              <i class="fab fa-github"></i> Explore Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: LearnMate -->
+        <div class="project-card glass-panel">
+          <div class="project-top">
+            <div class="project-badges">
+              <span class="badge badge-purple">In Active Development</span>
+              <span class="badge badge-subtle">Multimodal AI</span>
+            </div>
+            <span class="project-status-pill">
+              <i class="fas fa-spinner fa-spin"></i> Building
+            </span>
+          </div>
+
+          <h3 class="project-title">LearnMate</h3>
+          <p class="project-subtitle">Multimodal AI Learning & Synthesis Companion</p>
+
+          <p class="project-description">
+            An advanced learning companion inspired by NotebookLM. Students upload study materials and textbooks to automatically generate comprehensive flashcards, interactive conceptual mind maps, 3D visual models, and structured presentation slide decks for accelerated retention.
+          </p>
+
+          <div class="project-tech-list">
+            <span>Python</span>
+            <span>Multimodal LLMs</span>
+            <span>RAG</span>
+            <span>GenAI</span>
+            <span>Data Visualization</span>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/guptaaggreem" target="_blank" class="btn btn-sm btn-outline">
+              <i class="fab fa-github"></i> Follow Progress
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Skills Boost Highlight -->
+  <section class="section credentials-section">
+    <div class="container">
+      <div class="credentials-card glass-panel">
+        <div class="credentials-icon">
+          <i class="fab fa-google"></i>
+        </div>
+        <div class="credentials-info">
+          <h3>Google Cloud Skills Profile</h3>
+          <p>
+            Continuously advancing practical competencies through Google Cloud Skills Boost labs, completing verified badges in Cloud computing, Generative AI fundamentals, and Machine Learning workflows.
+          </p>
+        </div>
+        <a href="https://www.skills.google/public_profiles/b1f01234-952a-47b0-90d5-8c911b5c9ff1" target="_blank" class="btn btn-primary">
+          <i class="fas fa-external-link-alt"></i> View Verified Profile
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="section" id="resume">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04. Credentials</span>
+        <h2 class="section-title">Resume & Background</h2>
+      </div>
+
+      <div class="resume-wrapper glass-panel">
+        <div class="resume-preview-header">
+          <div>
+            <h3>Aggreem Gupta</h3>
+            <p class="text-muted">B.Tech in Artificial Intelligence + Mini MBA • Zenith School of AI (Class of 2030)</p>
+          </div>
+          <div class="resume-actions">
+            <a href="resume/index.html" target="_blank" class="btn btn-primary">
+              <i class="fas fa-file-pdf"></i> Printable Resume / PDF
+            </a>
+            <a href="resume/RESUME.md" target="_blank" class="btn btn-outline">
+              <i class="fas fa-file-code"></i> Markdown Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="resume-highlights-grid">
+          <div class="highlight-item">
+            <h4><i class="fas fa-graduation-cap"></i> Academic Path</h4>
+            <p>Zenith School of AI (Expected 2030). Immersive dual track covering AI engineering, neural concepts, prompt design, and executive business strategy.</p>
+          </div>
+          <div class="highlight-item">
+            <h4><i class="fas fa-cogs"></i> Technical Focus</h4>
+            <p>End-to-end RAG architecture, semantic embedding pipelines, vector indexing, and scalable database integration with MongoDB.</p>
+          </div>
+          <div class="highlight-item">
+            <h4><i class="fas fa-cubes"></i> Applied Work</h4>
+            <p>Demonstrated hands-on execution through CompanyBrain (enterprise ops) and CampusBrain (policy intelligence).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05. Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+
+      <div class="contact-card glass-panel">
+        <h3>Let's Collaborate on Next-Gen AI</h3>
+        <p class="contact-desc">
+          I'm always excited to discuss Generative AI, RAG innovations, research ideas, or collaborative project opportunities.
+        </p>
+
+        <div class="contact-methods">
+          <a href="mailto:Guptaaggreem@gmail.com" class="contact-btn">
+            <i class="fas fa-envelope"></i>
+            <span>Guptaaggreem@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aggreem-gupta-147778404/" target="_blank" class="contact-btn">
+            <i class="fab fa-linkedin-in"></i>
+            <span>LinkedIn Profile</span>
+          </a>
+          <a href="https://github.com/guptaaggreem" target="_blank" class="contact-btn">
+            <i class="fab fa-github"></i>
+            <span>github.com/guptaaggreem</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Aggreem Gupta. Crafted with modern HTML, CSS & JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://github.com/guptaaggreem" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aggreem-gupta-147778404/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:Guptaaggreem@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
